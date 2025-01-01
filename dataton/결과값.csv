@@ -1,0 +1,100 @@
+﻿2024 콘텐츠 변형 탐지 데이터톤 경진대회 - Track A,,
+,,
+1. 원본 영상과 테스트 영상의 Dissimilarity 값을 비교 (1개의 영상만 비교한 결과),,
+* Dissimilarity - 0에 가까울 수록 유사한 이미지,,
+Dissimilarity - 0.05,,
+,,
+2. 원본 영상과 테스트 영상의 Dissimilarity 값을 비교 (90개 영상을 비교한 결과),,
+* Dissimilarity - 0에 가까울 수록 유사한 이미지,,
+* 0보다 크고 1.5 보다 작은 값들은 원본 영상에 노이즈가 추가된 영상으로 간주하여 검출하고 1.5보다 큰 영상들은 원본과 아예 다른 영상으로 검출 대상에서 제외함,,
+[결과값 Image Name - Euclidean Distance (Similarity)],,
+영상 번호,수치,검출 여부
+53.mpeg,1.67,x
+57.mpeg,1.73,x
+52.mpeg,2.08,x
+74.mpeg,2.21,x
+38.mpeg,2.2,x
+73.mpeg,2.25,x
+39.mpeg,2.26,x
+41.mpeg,2.24,x
+75.mpeg,2.24,x
+58.mpeg,2.28,x
+55.mpeg,2.29,x
+40.mpeg,2.3,x
+56.mpeg,2.35,x
+59.mpeg,2.37,x
+71.mpeg,2.37,x
+54.mpeg,2.39,x
+24.mpeg,2.38,x
+72.mpeg,2.45,x
+5.mpeg,0.02,o
+9.mpeg,0.03,o
+4.mpeg,0.04,o
+10.mpeg,0.04,o
+49.mpeg,0.04,o
+2.mpeg,0.04,o
+11.mpeg,0.05,o
+48.mpeg,0.05,o
+19.mpeg,0.07,o
+18.mpeg,0.09,o
+51.mpeg,0.09,o
+17.mpeg,0.1,o
+3.mpeg,0.11,o
+16.mpeg,0.11,o
+43.mpeg,0.11,o
+66.mpeg,0.11,o
+47.mpeg,0.12,o
+8.mpeg,0.13,o
+50.mpeg,0.13,o
+83.mpeg,0.13,o
+22.mpeg,0.14,o
+27.mpeg,0.14,o
+88.mpeg,0.14,o
+1.mpeg,0.14,o
+35.mpeg,0.15,o
+87.mpeg,0.15,o
+13.mpeg,0.15,o
+26.mpeg,0.16,o
+31.mpeg,0.16,o
+64.mpeg,0.16,o
+77.mpeg,0.16,o
+84.mpeg,0.16,o
+90.mpeg,0.16,o
+7.mpeg,0.17,o
+78.mpeg,0.17,o
+33.mpeg,0.17,o
+34.mpeg,0.17,o
+42.mpeg,0.17,o
+76.mpeg,0.17,o
+32.mpeg,0.18,o
+60.mpeg,0.18,o
+44.mpeg,0.19,o
+45.mpeg,0.19,o
+69.mpeg,0.19,o
+79.mpeg,0.19,o
+81.mpeg,0.19,o
+14.mpeg,0.2,o
+25.mpeg,0.2,o
+63.mpeg,0.2,o
+80.mpeg,0.2,o
+89.mpeg,0.2,o
+65.mpeg,0.23,o
+62.mpeg,0.34,o
+30.mpeg,0.24,o
+15.mpeg,0.26,o
+28.mpeg,0.26,o
+68.mpeg,0.27,o
+23.mpeg,0.27,o
+61.mpeg,0.28,o
+36.mpeg,0.19,o
+46.mpeg,0.29,o
+37.mpeg,0.29,o
+70.mpeg,0.29,o
+86.mpeg,0.29,o
+29.mpeg,0.36,o
+20.mpeg,0.36,o
+67.mpeg,0.47,o
+21.mpeg,0.55,o
+12.mpeg,0.6,o
+6.mpeg,0.6,o
+"노이즈 영상 ['24.mpeg', '38.mpeg', '39.mpeg', '40.mpeg', '41.mpeg', '52.mpeg', '53.mpeg', '54.mpeg', '55.mpeg', '56.mpeg', '57.mpeg', '58.mpeg', '59.mpeg', '71.mpeg', '72.mpeg', '73.mpeg', '74.mpeg', '75.mpeg']",,
