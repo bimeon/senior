@@ -73,6 +73,8 @@ Korean's complex syllabic structure (consonant + vowel combinations) makes direc
 ## 📦 Module 1: Sign Language Recognition (SLR)
 
 ### Data Preprocessing
+<img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/410d9a82-4d33-4573-8c39-09b17df3f558" />
+
 
 - **Frame Slicing**: Frames extracted at 0.025-second intervals
 - **Coordinate Extraction** via [Google Mediapipe Holistic API](https://github.com/google-ai-edge/mediapipe):
@@ -86,25 +88,8 @@ Korean's complex syllabic structure (consonant + vowel combinations) makes direc
 
 Based on the [Kaggle ASLFR Competition model](https://www.kaggle.com/competitions/asl-fingerspelling) by Mark Wijkhuizen, adapted for Korean sign language via transfer learning.
 
-```
-Input (128, 164)
-    │
-    ├── Masking (128, 164)
-    │
-    └── Embedding Layer (128, 384)
-              │
-         Encoder (128, 256)
-         [Layer Norm → Multi-Head Attention → Layer Norm → MLP]
-              │
-         Decoder (25, 256)          ◄── Phrase (25)
-         [Layer Norm → Multi-Head Attention → Layer Norm → MLP]
-              │
-          Dropout (25, 256)
-              │
-          Dense Layer (25, 62)
-              │
-           Output
-```
+<img width="1920" height="1080" alt="슬라이드4" src="https://github.com/user-attachments/assets/7fb4516b-39a9-466e-9162-9a4c8cd0f11b" />
+
 
 ### Transfer Learning Strategy
 
@@ -131,6 +116,9 @@ Input (128, 164)
 ---
 
 ## 📦 Module 2: Sign Language Translation (SLT)
+
+<img width="1920" height="1080" alt="슬라이드5" src="https://github.com/user-attachments/assets/4aac71ae-ae0f-4c87-ab04-76f905ea17f1" />
+
 
 ### Model: mBART Fine-Tuning
 
@@ -237,6 +225,22 @@ Fine-tuning with noisy English data yielded a **~9× improvement** in BLEU score
 - Extend training to cover **longer, complex sentences** beyond words and short phrases
 - Integrate SLR + SLT into a unified real-time **Sign Language Translation (SLT)** pipeline
 - Address the **auto-regressive termination problem** in the decoder to eliminate spurious character generation
+
+---
+
+## 📌 Presentation Slide
+
+<img width="1920" height="1080" alt="슬라이드1" src="https://github.com/user-attachments/assets/7b2f0410-0437-4813-a578-178b80f1738b" />
+<img width="1920" height="1080" alt="슬라이드2" src="https://github.com/user-attachments/assets/e08d7b9e-8825-4fd1-a748-e46e0b5398d2" />
+<img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/d54543e7-438e-44b6-b869-4b0e587693da" />
+<img width="1920" height="1080" alt="슬라이드4" src="https://github.com/user-attachments/assets/566bff10-b0ec-4539-91d1-75ca40fb7666" />
+<img width="1920" height="1080" alt="슬라이드5" src="https://github.com/user-attachments/assets/e838df50-11e5-4a23-915e-42d648f045ba" />
+<img width="1920" height="1080" alt="슬라이드6" src="https://github.com/user-attachments/assets/ca34dc92-799f-4359-ab3a-e808ee2e3eee" />
+<img width="1920" height="1080" alt="슬라이드8" src="https://github.com/user-attachments/assets/86e7fea3-ebff-4509-8dd5-18d8e22e20dc" />
+<img width="1920" height="1080" alt="슬라이드7" src="https://github.com/user-attachments/assets/d599e5c4-8a04-48c8-9d6f-4541aa49e04b" />
+<img width="1920" height="1080" alt="슬라이드9" src="https://github.com/user-attachments/assets/f3f4d847-85ce-4e11-bee9-6e53200251b2" />
+<img width="1920" height="1080" alt="슬라이드10" src="https://github.com/user-attachments/assets/e2dee546-baaa-4e03-ae8d-3c403074df05" />
+
 
 ---
 
