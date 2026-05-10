@@ -2,11 +2,6 @@
 
 > **Transformer + Mediapipe-based Korean Sign Language Recognition and Translation System**
 
-[![Best Paper Award](https://img.shields.io/badge/🏆_Best_Paper_Award-2024_Korea_Multimedia_Society-crimson?style=for-the-badge)](https://www.kmms.or.kr/)
-[![Outstanding Award](https://img.shields.io/badge/🥈_Outstanding_Award-2024_Graduation_Exhibition-darkred?style=for-the-badge)]()
-[![Python](https://img.shields.io/badge/Python-3.11.7-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-
 ---
 
 ## 📌 Overview
