@@ -27,7 +27,7 @@ This project addresses that gap by developing an **AI-powered Korean Sign Langua
 
 **Eunsu Kim, Seohyun Lee, Helen Hong**  
 Dept. of Software Convergence, Seoul Women's University  
-`{kimes00, zrowxseo, hlhong}@swu.ac.kr`
+`{kimes00, seohyunlee, hlhong}@swu.ac.kr`
 
 ---
 
