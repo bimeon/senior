@@ -237,30 +237,6 @@ Fine-tuning with noisy English data yielded a **~9× improvement** in BLEU score
 <img width="1920" height="1080" alt="슬라이드10" src="https://github.com/user-attachments/assets/e2dee546-baaa-4e03-ae8d-3c403074df05" />
 
 
----
-
-## 📄 Citation
-
-```bibtex
-@inproceedings{kim2024korean,
-  title     = {Korean Sign Language Recognition Based on Transformer and Mediapipe},
-  author    = {Eun-Su Kim and Seo-Hyun Lee and Helen Hong},
-  booktitle = {Proceedings of the Korea Multimedia Society Autumn Conference},
-  volume    = {27},
-  number    = {2},
-  pages     = {121--124},
-  year      = {2024}
-}
-```
-
----
-
-## 🙏 Acknowledgements
-
-This research was supported by the SW-centered University Program of Seoul Women's University (2024).
-
----
-
 <div align="center">
   <sub>Dept. of Software Convergence, Seoul Women's University · 2024</sub>
 </div>
